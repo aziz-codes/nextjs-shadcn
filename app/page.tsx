@@ -1,7 +1,7 @@
-import React from "react";
-
+"use client";
+import { Button } from "@/components/ui/button";
 const Home = () => {
-  return <div>Home</div>;
+  return <Button onClick={() => console.log("clicked")}>Click me</Button>;
 };
 
 export default Home;
